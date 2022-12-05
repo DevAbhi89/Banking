@@ -1,5 +1,4 @@
 package com.abm.entity;
-import lombok.Data;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -10,12 +9,11 @@ import javax.persistence.JoinColumn;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
-@Data
 @Entity
 @Table(name = "tbl_address")
 public class Addressdetail {
 
-}
+
 	
 	@Id
 	@GeneratedValue 
